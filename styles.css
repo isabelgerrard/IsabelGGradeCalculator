@@ -1,0 +1,59 @@
+/*Font family, font size, element spacing/alignment and margins must be set in a .css doc*/
+h1, h2, p {
+    text-align: center;
+    color: darkblue;
+}
+
+
+h1, h2, #currentGrade, #finalGradeNeeded{
+    font-family: "Courier New";
+}
+
+
+h1 {
+    text-weight: bold;
+    font-size: 37px;
+}
+
+
+h2{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+body {
+    background-color: #cfdefb;
+    color: darkblue;
+    font-size: 30px;
+}
+
+
+#content {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+#gradeTable, #finalTable {
+    text-align: center;
+    text-weight: bold;
+    color: darkblue;
+    position: relative;
+    margin: auto;
+    width: 42%;
+}
+
+#finalTable, #titles{
+    font-size: 20px;
+}
+
+#hwScores, #hwWeight, #qScores, #qWeight, #testScores, #testWeight, #gradeWanted, #finalWeight{
+    font-size: 12px;
+    text-align: center;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+}
